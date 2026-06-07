@@ -1,0 +1,25 @@
+{
+  "name": "playwrightsaucedemo",
+  "version": "1.0.0",
+  "description": "Playwright Automation Framework for SauceDemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:test": "cross-env TEST_ENV=test playwright test",
+    "test:uat": "cross-env TEST_ENV=uat playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2"
+  }
+}

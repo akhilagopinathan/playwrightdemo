@@ -1,0 +1,32 @@
+
+# Node modules
+node_modules/
+
+# Playwright Reports
+playwright-report/
+
+# Playwright Results
+test-results/
+
+# Playwright Cache
+.playwright/
+
+# Environment Files
+config/test.env
+config/uat.env
+
+
+# Logs
+logs/
+*.log
+
+# IDE Files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Temporary Files
+*.tmp
+*.temp
